@@ -1,5 +1,6 @@
 import React from 'react'
 import './Steps.scss'
+import arrow from '../images/curvearrow.svg'
 const Steps = () => {
     return (
         <div className = "section">
@@ -38,8 +39,9 @@ const Steps = () => {
                             <p className="step-p">It's common to settle for template site that lacks personality causing visitors to bounce. We help you launch an aesthetic and trustworthy web experience that customers remember.</p>
                         </div>
                     </div>
+
                 </div>
-               
+                <img src={arrow} className="arrow" />
             </div>
         </div>
     )
