@@ -57,6 +57,10 @@ h2 {
   font-weight: 700;
 }
 
+* {
+  color: #242424
+}
+
 .mainButton {
   background: linear-gradient(to right, #00c3e3,#03dfe5);
   border: none;

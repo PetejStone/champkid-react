@@ -7,6 +7,7 @@ import Header from './components/Header.js'
 import Outcomes from './components/Outcomes.js'
 import Problems from './components/Problems.js'
 import Steps from './components/Steps.js'
+import SliderIntro from './components/SliderIntro'
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Outcomes />
       <Problems />
       <Steps />
+      <SliderIntro />
 
     </div>
   );
