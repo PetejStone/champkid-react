@@ -1,0 +1,48 @@
+
+.girltop {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.vertLine {
+    width: 1px;
+    height: 200px;
+    background-color: #b7b7b7;
+    margin: 0 auto;
+}
+
+.outcomes-grid {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .childone {
+        background-color: #eff6fd;
+        border-radius: 15px 0px 0px 15px;
+        border-right: none;
+    }
+    .childtwo {
+        background-color: #e2f2fa;
+        border-right: none;
+        
+    }
+    .childthree {
+        background-color: #d5ebf5;
+        border-radius: 0px 15px 15px 0px;
+    }
+}
+
+.outcome {
+    display: flex;
+    width: 33.3%;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    border: 1px solid #c3d8db;
+    
+}
+
+.outcome-logo {
+    width: 20px;
+    margin-right: 2rem;
+}

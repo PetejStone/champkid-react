@@ -1,0 +1,48 @@
+.bigNum {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.num-one {
+    color: #2c83ff;
+}
+
+.num-two {
+    color: #55d3d9;
+}
+
+.num-three {
+    color: #59f4ca;
+}
+
+.three-steps-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.step-title {
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.step {
+    text-align: left;
+    width: 25%;
+}
+
+.grow-steps {
+    text-align: left;
+    h2 {
+        max-width: 700px;
+
+    }
+
+    p {
+        max-width: 540px;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    
+}

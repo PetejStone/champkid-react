@@ -4,11 +4,18 @@ import './App.css';
 import { Route, BrowserRouter, Switch } from 'react-router-dom'
 import Nav from './components/Nav.js'
 import Header from './components/Header.js'
+import Outcomes from './components/Outcomes.js'
+import Problems from './components/Problems.js'
+import Steps from './components/Steps.js'
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
+      <Outcomes />
+      <Problems />
+      <Steps />
+
     </div>
   );
 }

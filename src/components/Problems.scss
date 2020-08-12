@@ -1,0 +1,61 @@
+.moneyburn {
+    width: 370px;
+    max-width: 100%;
+    height: -webkit-fill-available;
+    border-radius: 15px;
+}
+
+.redx {
+    width: 22px;
+    margin-right: 2rem;
+}
+
+.problem-heading {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.problemtext {
+   color: #99999d;
+   font-size: 22px;
+   margin: 0px;
+   margin-bottom: 1rem;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    width: fit-content;
+    li {
+        display: flex;
+        align-items: baseline;
+        
+    }
+}
+
+.problems-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.problemslist-container h2 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.gray {
+    background-color: #f9fbfd;
+    padding-bottom: 3rem;
+}
+
+.step-p {
+    color: #818298;
+    font-size: 14px;
+}

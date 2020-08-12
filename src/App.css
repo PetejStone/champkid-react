@@ -9,8 +9,19 @@
 .wrap {
   width: 95%;
   max-width: 1440px;
+  margin: 0 auto;
 
 }
+
+.container900, 
+.container1000,
+.container1100,
+.container1200,
+.container1440 {
+  margin: 0 auto;
+  width: 100%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,6 +48,15 @@
   color: #61dafb;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 .mainButton {
   background: linear-gradient(to right, #00c3e3,#03dfe5);
   border: none;
@@ -44,12 +64,45 @@
   color: #fff;
   padding: 25px 60px;
   font-size: 24px;
+  height: fit-content;
 }
 
-.navButton {
-  padding: 15px 50px;
-  font-size: 18px;
+.container900 {
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+.container1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container1100 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.blue {
+  color: #00caeb;
+}
+
+.red {
+ color: #ff3b46
+}
+
+li {
+  list-style-type: none;
+}
+
 
 @keyframes App-logo-spin {
   from {

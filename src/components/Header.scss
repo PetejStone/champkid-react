@@ -1,12 +1,10 @@
 .heading {
     font-size: 65px;
     text-align: left;
+    
 }
 
-.container900 {
-    max-width: 900px;
-    margin: 0 auto;
-}
+
 
 .buttonHeader {
     display: flex;
@@ -14,6 +12,7 @@
         margin-right: 2rem;
     }
     align-items: center;
+    margin-bottom: 3rem;
 }
 .pdfButton {
     font-size: 18px;
@@ -28,15 +27,17 @@
         height: 30px;
         border-bottom: 1px solid #00c3e3;
         transform: translateY(-30px);
-        transition-duration: 250ms;
+       // transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+         transition-duration: 250ms;
         //transition:cubic-bezier(1, 0, 0, 1);
         
     }
     
 }
 
-.underline:hover {
+.pdfButton:hover .underline{
     //height: 60px;
     transform: translateY(-60px);
+    
     
 }
