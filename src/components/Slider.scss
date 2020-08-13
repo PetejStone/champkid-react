@@ -1,0 +1,71 @@
+.carousel {
+    height: 500px;
+    background-color: #151419;
+    border-radius: 15px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin: 2px;
+}
+
+.testimony-box {
+    width: 75%;
+    padding: 3rem;
+    text-align: left;
+    height: 440px;
+    font-weight: 500;
+}
+.testimony {
+    color: #fff;
+    font-size: 20px;
+    line-height: 29px;
+  
+}
+
+.client {
+    color: #666f7b;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.carousel-control-prev {
+    left: 700px;
+    top: -60px;
+   // background-image: url('../images/left.svg');
+   
+}
+
+.carousel-control-next {
+    left: 810px;
+    top: -102px;
+  //  background-image: url('../images/left.svg');
+  //background-image: url('../images/right.svg');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: 0px;
+    height: 2.5rem;
+    width: 2.5rem;
+    position: relative;
+    color: red !important;
+}
+
+.carousel-indicators {
+    right: -646px;
+    bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/left.svg');
+    fill:red
+   // background-color:white;
+  }
+
+.carousel-control-next-icon {
+   background-image: url('../images/right.svg');
+  }

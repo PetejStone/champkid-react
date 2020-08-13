@@ -8,6 +8,7 @@ import Outcomes from './components/Outcomes.js'
 import Problems from './components/Problems.js'
 import Steps from './components/Steps.js'
 import SliderIntro from './components/SliderIntro'
+import Slider from './components/Slider'
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Problems />
       <Steps />
       <SliderIntro />
+      <Slider />
 
     </div>
   );
