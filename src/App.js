@@ -9,9 +9,18 @@ import Problems from './components/Problems.js'
 import Steps from './components/Steps.js'
 import SliderIntro from './components/SliderIntro'
 import Slider from './components/Slider'
+import Popup from './components/Popup.js'
+import Schedule from './components/Schedule.js'
 function App() {
+  setTimeout(() => {
+    //document.querySelector('.modal').classList.add('show')
+    document.querySelector('.popup-button').click()
+   
+    
+  }, 10000);
   return (
     <div className="App">
+      <button className="popup-button" data-toggle="modal" data-target="#exampleModalCenter"/>
       <Nav />
       <Header />
       <Outcomes />
@@ -19,6 +28,8 @@ function App() {
       <Steps />
       <SliderIntro />
       <Slider />
+      <Schedule />
+      <Popup/>
 
     </div>
   );

@@ -1,13 +1,16 @@
 import React from 'react'
 import logo from '../images/logo.svg'
 import './Nav.scss'
+import Popup from './Popup.js'
 const Nav = () => {
     return (
         <div className = "section nav">
             <div className="wrap nav">
                 <img src={logo} />
-                <button className="mainButton navButton">Schedule an Intro Call</button>
-            </div>
+                <button className="mainButton navButton" >Schedule an Intro Call</button>
+            
+                </div>
+            
         </div>
     )
 }

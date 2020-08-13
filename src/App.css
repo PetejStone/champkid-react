@@ -4,6 +4,24 @@
 .App {
   text-align: center;
   font-family: 'Inter', sans-serif;
+  
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.popup-button {
+  display: none;
+}
+
+.popup-img {
+  width: 175px;
+  margin: 0 auto;
+}
+
+.show {
+  display: block !important;
 }
 
 .wrap {
@@ -11,6 +29,47 @@
   max-width: 1440px;
   margin: 0 auto;
 
+}
+
+.modal-content {
+  background: linear-gradient(to right, #00c3e3,#03dfe5);
+  display: flex;
+  justify-content: column;
+  margin: 0 auto;
+  width: 75% !important;
+  padding: 1rem;
+  border-radius: 15px;
+
+}
+
+.popup-accept,
+.popup-decline {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.popup-accept {
+  background-color: #000 !important;
+}
+
+.popup-decline {
+background-color: transparent !important;
+text-decoration: underline;
+border: none !important;
+}
+
+.popup-decline:hover {
+  
+  text-decoration: underline !important; 
+  
+  }
+
+.form-control {
+    width: 75% !important;
+    margin: 0 auto;
+    
 }
 
 .container900, 
@@ -64,11 +123,14 @@ h2 {
 .mainButton {
   background: linear-gradient(to right, #00c3e3,#03dfe5);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   padding: 25px 60px;
   font-size: 24px;
+  font-weight: 500;
   height: fit-content;
+  letter-spacing: -.5px;
+  line-height: 20px;
 }
 
 .container900 {

@@ -69,3 +69,37 @@
 .carousel-control-next-icon {
    background-image: url('../images/right.svg');
   }
+
+.vertline-slider {
+      width: 2px;
+      height: 100px;
+      background-color: #000;
+      margin: 0 auto;
+  }
+
+.sliderImg {
+      width: 230px;
+      height: 343px;
+      border-radius: 15px;
+  }
+
+.slider-content {
+    display: flex;
+}
+
+.company-logos {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    img {
+        width: 170px;
+    }
+
+    .pnw {
+        width: 90px;
+    }
+}

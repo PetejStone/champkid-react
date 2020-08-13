@@ -4,6 +4,12 @@ import {useState} from 'react'
 import './Slider.scss'
 import left from '../images/left.svg'
 import right from '../images/right.svg'
+import guy from '../images/dudebro.jpg'
+import girl from '../images/girl.jpg'
+import tw from '../images/teamworkcommerce.png'
+import mailchimp from '../images/mailchimp.png'
+import fiddlers from '../images/fiddlers.png'
+import pnw from '../images/pnw.png'
 const Slider = () => {
 
   
@@ -14,8 +20,10 @@ const Slider = () => {
     // };
     return (
         <div className = "section">
-            <div className="wrap">
+            <div className="wrap slider-content">
+                <img src={guy} className="sliderImg" />
                 <div className="container900">
+                    <div className="vertline-slider"></div>
                     <div className="slider-container">
                         <Carousel className="carousel" interval={100000000}>
                             <Carousel.Item>
@@ -68,8 +76,15 @@ const Slider = () => {
                         </Carousel>
                     
                     </div>
+                    <div className="company-logos">
+                        <div><img src={tw}/></div>
+                        <div><img  src={mailchimp} /></div>
+                        <div><img src={fiddlers} /></div>
+                        <div><img  className="pnw" src={pnw} /></div>
+                    </div>
+                    <button className="mainButton">Schedule an Intro Call</button>
                 </div>
-               
+                <img src={girl} className="sliderImg"/>
             </div>
         </div>
     )
