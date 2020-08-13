@@ -11,6 +11,8 @@ import SliderIntro from './components/SliderIntro'
 import Slider from './components/Slider'
 import Popup from './components/Popup.js'
 import Schedule from './components/Schedule.js'
+import Greg from './components/Greg.js'
+
 function App() {
   setTimeout(() => {
     //document.querySelector('.modal').classList.add('show')
@@ -30,6 +32,7 @@ function App() {
       <Slider />
       <Schedule />
       <Popup/>
+      <Greg/>
 
     </div>
   );
