@@ -19,14 +19,14 @@
 .stat-bold {
     font-size: 80px;
     font-weight: 900;
-    line-height: 1.6;
+    line-height: 1.1;
 }
 
 .stat {
     p {
         font-size: 16px;
         font-weight: 400;
-        line-height: 1.6;
+        line-height: 1.1;
         text-align: left;
     }
 }
@@ -60,5 +60,82 @@
     color: #686870;
     height: 24;
     text-align: left;
+    transform: translateY(-955px);
     }
 }
+
+.read-more {
+    z-index:5;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,1),rgba(255,255,255,1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.readmore-button {
+    font-size: 18px;
+    cursor: pointer;
+    width: 100px;
+     h4 {
+         margin-bottom: 5px;
+         color: #000;
+         font-size: 18px;
+         width: 100px;
+     }
+    .underline {
+        height: 1px;
+        width: 90%;
+        //background-color: #00c3e3;
+        height: 30px;
+        border-bottom: 1px solid #00c3e3;
+        transform: translateY(-30px);
+       // transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+         transition-duration: 250ms;
+        //transition:cubic-bezier(1, 0, 0, 1);
+        
+    }
+    
+}
+
+.readmore-button:hover .underline{
+    //height: 60px;
+    transform: translateY(-60px);
+    
+    
+}
+
+.open {
+    animation-name: open;
+    animation-duration: 1s;
+    background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0));
+}
+
+.movedown {
+    animation-name: move;
+    animation-duration: 1s;
+    transform: translateY(500px);
+}
+
+.off {
+    display: none;;
+}
+
+@keyframes open {
+    0%   {background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,1),rgba(255,255,255,1))};
+    25%  {background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,.75),rgba(255,255,255,1))};
+    50%  {background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,1))};
+    75%  {background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,.25),rgba(255,255,255,.75))};
+    100% {background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(255,255,255,0),rgba(255,255,255,0))};
+  }
+
+  @keyframes move {
+    0%   {transform: translateY(100px)};
+    25%  {transform: translateY(200px)};
+    50%  {transform: translateY(300px)};
+    75%  {transform: translateY(500px)};
+    100% {opacity: 0};
+  }

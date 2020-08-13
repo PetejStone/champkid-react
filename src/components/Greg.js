@@ -1,6 +1,6 @@
 import React from 'react'
 import './Greg.scss'
-
+import './Header.scss'
 import gregphoto from '../images/greg.jpg'
 const Greg = () => {
     return (
@@ -8,7 +8,7 @@ const Greg = () => {
             <div className="wrap">
                 <div className="container1100">
                     <div className="greg-container">
-                        <h2>You <span className="blue">will</span>grow your business with a Story Funnel. Period.</h2>
+                        <h2>You <span className="blue">will</span> grow your business with a Story Funnel. Period.</h2>
 
                         <div className="stat-box">
                             <div className="photo-stats">
@@ -38,6 +38,20 @@ const Greg = () => {
                             </div>
 
                             <div className="description">
+                                <div className="read-more">
+                                    <div className="readmore-button" onClick={() => {
+                                        document.querySelector('.read-more').classList.add('open')
+                                        document.querySelector('.readmore-button').classList.add('movedown')
+                                        setTimeout(() => {
+                                            document.querySelector('.readmore-button').classList.add('off')
+                                        })
+                                    
+                                    }}>
+                                    <h4 className="readbutton">Read More</h4>
+                                    <div className="underline"></div>
+                                    </div>
+                                </div>
+                                
                                 <p>Hey, I’m Greg, your expert guide to building a Story Funnel Website that will grow your business.</p>
                                 
                                 <p>I know you are the kind of person who wants to be more than just “another” business. You desire to thrive and be the “Go-to Brand” that customers love doing business with. Whether you own a coffee shop, a construction company, or an eCommerce store, or anywhere in between, I know you want to be unstoppable.</p>
@@ -55,7 +69,10 @@ const Greg = () => {
                                 <p>Scheduling an Intro Call with me may just be the best 15 minutes you’ll ever set aside for your business.</p>
                                 
                                 <p>I hope to talk with you real soon.Greg Stone</p>
+
+                                
                             </div>
+                           
                         </div>
                     </div>
                 </div>
