@@ -12,15 +12,17 @@ import Slider from './components/Slider'
 import Popup from './components/Popup.js'
 import Schedule from './components/Schedule.js'
 import Greg from './components/Greg.js'
-
+import SliderTwo from './components/SliderTwo.js'
 function App() {
-  setTimeout(() => {
-    //document.querySelector('.modal').classList.add('show')
-    document.querySelector('.popup-button').click()
+  // setTimeout(() => {
+  //   //document.querySelector('.modal').classList.add('show')
+  //   document.querySelector('.popup-button').click()
    
     
-  }, 10000);
+  // }, 10000);
+  
   return (
+    
     <div className="App">
       <button className="popup-button" data-toggle="modal" data-target="#exampleModalCenter"/>
       <Nav />
@@ -33,6 +35,7 @@ function App() {
       <Schedule />
       <Popup/>
       <Greg/>
+      <SliderTwo />
 
     </div>
   );

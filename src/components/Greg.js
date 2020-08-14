@@ -68,7 +68,8 @@ const Greg = () => {
                                 
                                 <p>Scheduling an Intro Call with me may just be the best 15 minutes you’ll ever set aside for your business.</p>
                                 
-                                <p>I hope to talk with you real soon.Greg Stone</p>
+                                <p>I hope to talk with you real soon.</p>
+                                <p>Greg Stone</p>
 
                                 
                             </div>

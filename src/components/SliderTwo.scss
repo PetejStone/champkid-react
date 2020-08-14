@@ -1,0 +1,49 @@
+.carousel-two {
+    height: 500px;
+    background-color: #000;
+    width: 100%;
+    .carousel-item {
+        height: 500px;
+        // display: block;
+        // transform: translateX(40%);
+    }
+    
+   
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner {
+    .active {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.slider-two-content {
+   width: 100vw;
+}
+
+.image-box {
+    height: 500px;
+    //display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .w-100 {
+        width: auto;
+    }
+    img {
+        max-width: 480px;
+        width: auto !important;
+        max-height: 500px;
+    }
+}
+
+
+
