@@ -1,6 +1,6 @@
 .carousel-two {
     height: 500px;
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     .carousel-item {
         height: 500px;
@@ -15,6 +15,28 @@
 .carousel-item-next,
 .carousel-item-prev {
   display: flex;
+  
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    left: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/rightblack.svg');
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/leftblack.svg');
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .carousel-inner {
@@ -45,5 +67,15 @@
     }
 }
 
+
+.video p {
+    color: #7c7c8c;
+    font-size: 20px;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 13rem;
+}
 
 

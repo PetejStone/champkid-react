@@ -29,7 +29,7 @@ const SliderTwo = () => {
     return (
         <div className = "section slider-two-content">
             <div className="slider-container">
-            <div id="carouselExampleIndicators" data-interval={false} class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" data-interval={false} class="carousel-two carousel slide" data-ride="carousel">
               
             <div class="carousel-inner">
               <div class="carousel-item image-box active">

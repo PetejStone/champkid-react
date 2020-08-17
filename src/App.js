@@ -13,6 +13,9 @@ import Popup from './components/Popup.js'
 import Schedule from './components/Schedule.js'
 import Greg from './components/Greg.js'
 import SliderTwo from './components/SliderTwo.js'
+import Video from './components/Video.js'
+import Pdfbook from './components/Pdfbook.js'
+import Faq from './components/Faq.js'
 function App() {
   // setTimeout(() => {
   //   //document.querySelector('.modal').classList.add('show')
@@ -36,6 +39,9 @@ function App() {
       <Popup/>
       <Greg/>
       <SliderTwo />
+      <Video />
+      <Pdfbook />
+      <Faq />
 
     </div>
   );

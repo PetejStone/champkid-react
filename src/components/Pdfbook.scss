@@ -1,0 +1,40 @@
+.pdfblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.leftpdf {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: left;
+    h5 {
+        font-size: 18px;
+        color: #00c3e3;
+    }
+
+    h4 {
+       font-size: 32px;
+       color: #242424;
+    }
+
+    p {
+        font-size: 20px;
+        color: #333;
+    }
+    .underline {
+        width: 35%;
+    }
+}
+
+.rightpdf {
+    max-width: 400px;
+    img {
+        width: 100%;
+    }
+}
