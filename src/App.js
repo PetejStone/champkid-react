@@ -17,12 +17,12 @@ import Video from './components/Video.js'
 import Pdfbook from './components/Pdfbook.js'
 import Faq from './components/Faq.js'
 function App() {
-  // setTimeout(() => {
-  //   //document.querySelector('.modal').classList.add('show')
-  //   document.querySelector('.popup-button').click()
+  setTimeout(() => {
+    //document.querySelector('.modal').classList.add('show')
+    document.querySelector('.popup-button').click()
    
     
-  // }, 10000);
+  }, 10000);
   
   return (
     
